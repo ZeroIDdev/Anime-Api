@@ -57,7 +57,7 @@ const mainPage = async (pathName, page = "1") => {
 
     return data;
   } catch (error) {
-    throw new Error(`Error fetching data: ${error.message}`);
+    throw new Error(`bgst`);
   }
 };
 
