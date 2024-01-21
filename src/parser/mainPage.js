@@ -8,7 +8,7 @@ const mainPage = async (pathName, page = "1") => {
   try {
     const response = await fetch(URL);
     if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
+      throw new Error(`anjing`);
     }
 
     const dataText = await response.text();
