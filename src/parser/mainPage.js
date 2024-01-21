@@ -5,8 +5,15 @@ const mainPage = async (pathName, page = "1") => {
     ~~page % 2 == 0 ? Math.ceil(~~page / 2) - 1 : Math.ceil(~~page / 2)
   }`;
 
+  const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3';
+
+  
   try {
-    const response = await fetch(URL);
+    const response = await fetch(URL,{
+      headers: {
+      'User-Agent': userAgent,
+  },
+    });
     if (!response.ok) {
       throw new Error(`anjing`);
     }
