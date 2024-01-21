@@ -4,7 +4,7 @@ import mainPage from "./mainPage.js";
 import search from "./search.js";
 import streamingAnime from "./streamingAnime.js";
 import streamingMovie from "./streamingMovie.js";
-
+import Coba from "./Coba.js"
 export {
   animeDetails,
   genreList,
@@ -12,4 +12,5 @@ export {
   search,
   streamingAnime,
   streamingMovie,
+  Coba,
 };
