@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../Grid"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React",
+		"git.ignoreLimitWarning": true
+	}
+}
